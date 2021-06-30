@@ -24,6 +24,9 @@ git push origin newbranch
 
 - Create PR on GitHub from fork/branch into org/main
 
+![image](https://user-images.githubusercontent.com/85481359/123951062-a6b9f200-d9a4-11eb-887b-e503d83cc6db.png)
+
+
 - Merge the PR on GitHub
 
 
