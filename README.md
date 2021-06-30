@@ -2,9 +2,28 @@
 
 Instructions
 =======
-      1. Fork repo from GitHub UI
-      2. Clone repo on local machine : $ git clone <fork repo> (ie : git clone https://github.com/viv-garot/learningGit.git)
-      3. Create and checkout branch on local machine : $ git checkout -b <branch name> (ie : git checkout -b feature)
-      4. Push the changes from the feature branch to the remote fork : $ git push origin <branch name> (ie : git push origin feature)
-      5. Create PR on GitHub from fork/branch into org/main
-      6. Merge the PR on GitHub
+- Fork repo from GitHub UI
+
+![image](https://user-images.githubusercontent.com/85481359/123950142-aa00ae00-d9a3-11eb-85e1-1b1a2226b92b.png)
+
+
+- Clone repo to the local machine 
+```
+git clone clone https://github.com/viv-garot/learningGit.git
+```
+
+- Create and checkout branch on local machine 
+```
+git checkout -b newbranch 
+```
+
+- Push the changes from the *newbranch* to the remote fork
+```
+git push origin newbranch
+```
+
+- Create PR on GitHub from fork/branch into org/main
+
+- Merge the PR on GitHub
+
+
