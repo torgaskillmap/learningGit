@@ -29,4 +29,5 @@ git push origin newbranch
 
 - Merge the PR on GitHub
 
+![image](https://user-images.githubusercontent.com/85481359/123951829-7faff000-d9a5-11eb-81cc-e5fdd595a7ae.png)
 
