@@ -43,6 +43,6 @@ git push origin newbranch
 
 - Update local clone repo with changes from the original repo
 ```
-git pull upstream master
-git push origin master
+git pull upstream main
+git push origin main
 ``` 
