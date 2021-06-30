@@ -17,6 +17,16 @@ git clone clone https://github.com/viv-garot/learningGit.git
 git checkout -b newbranch 
 ```
 
+- Add a remote pointing to the original repo you have forked on
+```
+git remote add upstream https://github.com/torgaskillmap/learningGit.git
+```
+
+- Do the codes changes locally
+```
+ Edit file, add screenshots, ...
+```
+
 - Push the changes from the *newbranch* to the remote fork
 ```
 git push origin newbranch
@@ -31,3 +41,8 @@ git push origin newbranch
 
 ![image](https://user-images.githubusercontent.com/85481359/123951829-7faff000-d9a5-11eb-81cc-e5fdd595a7ae.png)
 
+- Update local clone repo with changes from the original repo
+```
+git pull upstream master
+git push origin master
+``` 
