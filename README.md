@@ -4,8 +4,7 @@ Instructions
 =======
 - Fork repo from GitHub UI
 
-![image](https://user-images.githubusercontent.com/85481359/123950142-aa00ae00-d9a3-11eb-85e1-1b1a2226b92b.png)
-
+![image](https://user-images.githubusercontent.com/85481359/124254503-6d5ebf00-db29-11eb-8231-6c71cf164dc3.png)
 
 - Clone repo to the local machine 
 ```
@@ -41,8 +40,13 @@ git push origin newbranch
 
 ![image](https://user-images.githubusercontent.com/85481359/123951829-7faff000-d9a5-11eb-81cc-e5fdd595a7ae.png)
 
-- Update local clone repo with changes from the original repo
+- Download changes from the original repo to the local clone repo
 ```
 git pull upstream main
-git push origin main
 ``` 
+
+- Push those changes to the remote forked repo
+
+```
+git push origin main
+```
